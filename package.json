@@ -2,7 +2,6 @@
   "name": "stoneeye-site",
   "version": "1.0.0",
   "license": "MIT",
-  "packageManager": "yarn@4.13.0",
   "description": "StoneEye - Visão Inteligente para o Setor de Rochas",
   "main": "index.html",
   "scripts": {
