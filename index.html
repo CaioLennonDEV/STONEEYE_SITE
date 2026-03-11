@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoneEye - The Art of Stone Inspection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">STONE<span>EYE</span></a>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#collection">Coleção</a></li>
+                <li><a href="#prototype">Protótipo</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero">
+            <div class="parallax-bg" data-speed="0.2">
+                <img src="assets/nero.png" alt="Marble Texture">
+            </div>
+            <div class="overlay-gradient"></div>
+            <div class="content-wrapper">
+                <h1 class="reveal">Stone<span class="highlight">EYE</span></h1>
+                <p class="description reveal">A evolução da inspeção de mármores e granitos através de inteligência artificial de alta performance.</p>
+                <a href="#collection" class="btn reveal">Explorar Agora</a>
+            </div>
+            <div class="scroll-hint">
+                <div class="mouse"></div>
+                <span>Scroll para descobrir</span>
+            </div>
+        </section>
+
+        <!-- COLLECTION SECTION -->
+        <section id="collection">
+            <div class="overlay-gradient"></div>
+            <div class="content-wrapper">
+                <h2 class="reveal">Peças <span class="highlight">Exclusivas</span></h2>
+                <p class="description reveal">Detectamos a perfeição em cada veia. Nossa IA analisa padrões únicos para garantir a melhor qualidade.</p>
+                
+                <div class="slab-showcase">
+                    <div class="slab-card reveal">
+                        <img src="assets/carrara.png" alt="Carrara Marble">
+                        <div class="slab-info">
+                            <h3>Carrara White</h3>
+                        </div>
+                    </div>
+                    <div class="slab-card reveal" style="transition-delay: 0.2s;">
+                        <img src="assets/nero.png" alt="Nero Marquina">
+                        <div class="slab-info">
+                            <h3>Nero Marquina</h3>
+                        </div>
+                    </div>
+                    <div class="slab-card reveal" style="transition-delay: 0.4s;">
+                        <img src="assets/calacatta.png" alt="Calacatta Gold">
+                        <div class="slab-info">
+                            <h3>Calacatta Gold</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROTOTYPE SECTION -->
+        <section id="prototype">
+            <div class="parallax-bg" data-speed="0.1">
+                <img src="assets/calacatta.png" alt="Tech background" style="filter: brightness(0.3) blur(5px);">
+            </div>
+            <div class="overlay-gradient"></div>
+            <div class="content-wrapper">
+                <h2 class="reveal">Visão <span class="highlight">Inteligente</span></h2>
+                <p class="description reveal">O futuro da indústria de rochas ornamentais. Inspeção automatizada em tempo real.</p>
+                
+                <div class="prototype-container reveal">
+                    <img src="assets/prototype.png" alt="StoneEye Dashboard Prototype">
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contato">
+            <div class="overlay-gradient"></div>
+            <div class="content-wrapper">
+                <h2 class="reveal">Transforme sua <span class="highlight">Operação</span></h2>
+                <p class="description reveal">Entre em contato e descubra como a StoneEye pode otimizar sua produção.</p>
+                <a href="mailto:contato@stoneeye.com" class="btn reveal">Solicitar Demo</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
